@@ -5,4 +5,12 @@ const users = [
 		curso: 'C12',
 	},
 ]
-module.exports = { users }
+const films = [
+	{
+		id: 'a82a258b-eb44-491b-8328-d89304d03d4f',
+		title: 'El Señor de los Anillos',
+		year: '2001',
+		price: 45,
+	},
+]
+module.exports = { users, films }
